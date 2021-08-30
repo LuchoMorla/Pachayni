@@ -1,4 +1,7 @@
 /* Estilos del menu de navegacion */
+li {
+    display: flex;
+}
 .menu_item {
     font-size: 1.4rem;
     font-family: Georgia, 'Times New Roman', Times, serif;

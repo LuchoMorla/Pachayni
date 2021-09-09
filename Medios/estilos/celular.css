@@ -10,6 +10,7 @@ html {
     --colorVerde1: greenyellow;
     --colorCelesteCielo: #00AAE4;
     --colorVerdePaisaje: #305e05;
+    --colorAmarilloRayoDeSol: #fde400;
 }
 header {
     background: var(--colorVerde1);
@@ -20,7 +21,7 @@ header {
     /*encaso de que algo no funcione como quiero puedes cambiarle flex a flex-wrap: wrap; */
     justify-content: space-between;
     background: transparent;
-    color: white;
+    color: whitesmoke;
     /*voy a dejar el header fijo en la pantalla*/
     position: fixed;
     top: 0;
@@ -39,6 +40,9 @@ header {
 .profile_container p {
     display: none;
 }
+main {
+
+}
 .helloBackgroundImage {
     background-image: url('../imagenes/pictures/selva-en-el-lindo-atardecer-salvar-paisaje.jpg');
     height: 750px;
@@ -48,4 +52,28 @@ header {
 }
 li {
     display: none;
+}
+.willContainer {
+    text-align: center;
+    position: static;
+    padding-top: 125px;
+}
+.willContainer h1 {
+    color: white;
+    font-size: 2rem;
+}
+.vendemos {
+    color: var(--colorVerdePaisaje);
+}
+.button {
+    border: 1px solid var(--colorVerdePaisaje);
+    border-radius: 25px;
+    padding: 4px;
+    background-color: var(--colorAmarilloRayoDeSol);
+    font-size: 1.6rem;
+}
+.willContainer p {
+    margin: 50px;
+    color: var(--colorAmarilloRayoDeSol);
+    font-size: 1.6rem;
 }

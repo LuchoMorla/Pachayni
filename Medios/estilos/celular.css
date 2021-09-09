@@ -7,10 +7,14 @@ html {
     font-size: 62,5%;
 }
 :root {
-    --colorVerde1: greenyellow;
+    --verdeRecomendado:#7AFC00;
     --colorCelesteCielo: #00AAE4;
     --colorVerdePaisaje: #305e05;
     --colorAmarilloRayoDeSol: #fde400;
+    --colorAmarilloCielo:#f4cc92;
+    /*paleta basada en el verde paisaje y rayo de sol del paisaje*/
+    --azulRecomendado: #4B19FC;
+    --rojoRecomendado:#FC1C19;
 }
 header {
     background: var(--colorVerde1);
@@ -66,11 +70,12 @@ li {
     color: var(--colorVerdePaisaje);
 }
 .button {
-    border: 1px solid var(--colorVerdePaisaje);
+    border: 2px solid var(--verdeRecomendado);
     border-radius: 25px;
-    padding: 4px;
-    background-color: var(--colorAmarilloRayoDeSol);
+    padding: 0px 9px;
+    background-color: var(--colorAmarilloCielo);
     font-size: 1.6rem;
+    color:var(--colorVerdePaisaje);
 }
 .willContainer p {
     margin: 50px;

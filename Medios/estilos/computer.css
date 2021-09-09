@@ -2,14 +2,6 @@
 li {
     display: flex;
 }
-.menu_item {
-    font-size: 1.4rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: whitesmoke;
-    border-radius: 25%;
-    padding: 5px 1px;
-    border: 1px solid  var(--colorCelesteCielo);
-}
 .nav {
     list-style: none;
     position: relative;
@@ -26,10 +18,10 @@ li {
     margin-left: 30px;
     position: static;
     text-decoration: none;
-    color: black;
+    color: var(--colorVerdePaisajeq);
     text-align:  center;
-    color: black;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .menu_container {

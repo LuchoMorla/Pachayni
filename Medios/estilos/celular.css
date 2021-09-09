@@ -9,6 +9,7 @@ html {
 :root {
     --colorVerde1: greenyellow;
     --colorCelesteCielo: #00AAE4;
+    --colorVerdePaisaje: #305e05;
 }
 header {
     background: var(--colorVerde1);
@@ -16,28 +17,34 @@ header {
     width: 100%;
     display: flex;
     flex: wrap;
+    /*encaso de que algo no funcione como quiero puedes cambiarle flex a flex-wrap: wrap; */
     justify-content: space-between;
     background: transparent;
     color: white;
-    position: static;
+    /*voy a dejar el header fijo en la pantalla*/
+    position: fixed;
+    top: 0;
 }
 .logo_container {
     font-size: 3rem;
 }
 
+.profile_container img {
+    height: 60px;
+}
 .profile_container {
-    margin-right: 10px;
-    margin-top: 7px;
+    margin-right: 4px;
+    margin-top: 4px;
 }
 .profile_container p {
     display: none;
 }
-.hello {
-    background-image: url('../imagenes/pictures/arobles-en-cuesta-viendo-el-sol-al-final.jpg');
-    height: 600px;
+.helloBackgroundImage {
+    background-image: url('../imagenes/pictures/selva-en-el-lindo-atardecer-salvar-paisaje.jpg');
+    height: 750px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-top: -60px;
+    margin-top: 0px;
 }
 li {
     display: none;

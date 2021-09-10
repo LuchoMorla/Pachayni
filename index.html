@@ -42,7 +42,21 @@
                 <p>
                     Capturamos el Monoxido de Carbono ( CO2 ) del ambiente por ti y por el planeta, queremos mitigar la polucion con gases de efecto invernadero y de reducir las consecuencias cultivando árboles, manglares y algas.
                 </p>
-                <button class="button" onclick="">Quiero comprar Bonos de CO2</button>
+                <button class="button" id="button_abrir-popUp">Quiero comprar Bonos de CO2</button>
+                <div class="overlay" id="overlay">
+                    <div class="popUp" id="popUp">
+                        <a href="#" id="button_cerrar-popUp" class="button_cerrar-popUp">X</a>
+                        <h3>Contactanos para comprar bonos de carbono</h3>
+                        <p>Puede que desees información más adelante te la daremos</p>
+                        <form action="">
+                            <div class="contenedor-inputs">
+                                <input type="text" placeholder="Nombre">
+                                <input type="email" placeholder="Email">
+                            </div>
+                            <input type="submit" class="button-submit" value="CompradorDeBonos">
+                        </form>
+                    </div>
+                </div>
                 <p>tambien queremos incentivar otros proyectos que puedan servir de ayuda al medio ambiente</p>
             </div>
         </section>

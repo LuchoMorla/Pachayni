@@ -76,9 +76,92 @@ li {
     background-color: var(--colorAmarilloCielo);
     font-size: 1.6rem;
     color:var(--colorVerdePaisaje);
+    cursor: pointer;
 } 
 .willContainer p {
     margin: 50px;
     color: var(--colorAmarilloRayoDeSol);
     font-size: 1.6rem;
+}
+/*Vamos a crear un popup de formulario de contacto para el que quiera comprar bonos de carbono*/
+.overlay {
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*hidden -> ocultar despues al activar
+    con js visibility: visible agregando la clase active*/
+    visibility: hidden;
+}
+.overlay.active {
+    visibility: visible;
+}
+.popUp {
+    background: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 800px;
+    height: 500px;
+    /*porsi queremos hacer animaciones ;)*/
+}
+.popUp .button_cerrar-popUp {
+    font-size: 1.6rem;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: gray;
+    transition: .3s ease all;
+}
+.popUp .button_cerrar-popUp:hover {
+    color: black;
+}
+.popUp h3 {
+    font-size: 2rem;
+    /*font-weight: normal;*/
+    /*con el anterior doy estilos al texto*/
+    /* opacity: 0; si esque queremos animacion*/
+}
+.popUp p {
+    font-size: 1.7rem;
+    margin: 15px;
+    /*font-weight: 300;*/
+}
+.popUp form .contenedor-inputs input {
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px;
+}
+.popUp form .contenedor-inputs {
+    width: 100%;
+    margin-bottom: 30px;
+    height: 100px;
+    /* Seria bueno saber que hace esta propiedad
+    line-height: 52px;*/
+    font-size: 1.8rem;
+    text-align: center;
+    border: 1px solid #BBBBBB;
+    justify-content: space-between;
+}
+.popUp form .button-submit {
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    border: 25px;
+    color: var(--verdeRecomendado);
+    border-radius: 3px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+.popUp form .button-submit:hover {
+    background: rgba(94, 125, 227, .9);
 }

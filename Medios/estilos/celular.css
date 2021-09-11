@@ -16,6 +16,16 @@ html {
     --azulRecomendado: #4B19FC;
     --rojoRecomendado:#FC1C19;
 }
+.logo_container {
+    display: flex;;
+}
+.logo {
+    height: 55px;
+    margin: 5px;
+}
+.logo_container p {
+    margin: 3px;
+}
 header {
     background: var(--colorVerde1);
     height: 60px;

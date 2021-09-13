@@ -56,7 +56,11 @@ header {
     display: none;
 }
 main {
-
+ /*   background: var(--colorAmarilloRayoDeSol);
+    height: 100%;*/
+}
+body {
+    background: var(--colorAmarilloRayoDeSol);
 }
 .helloBackgroundImage {
     background-image: url('../imagenes/pictures/selva-en-el-lindo-atardecer-salvar-paisaje.jpg');

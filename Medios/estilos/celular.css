@@ -116,6 +116,10 @@ li {
 .overlay.active {
     visibility: visible;
 }
+.Whatsapp {
+    margin: 10px;
+    height: 7rem;
+}
 .popUp {
     background: white;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
@@ -124,6 +128,8 @@ li {
     text-align: center;
     width: 800px;
     height: 500px;
+    /*overflow para que en caso de ser necesario poder hacer scroll*/
+    overflow-y: auto;
     /*porsi queremos hacer animaciones ;)*/
 }
 .popUp .button_cerrar-popUp {

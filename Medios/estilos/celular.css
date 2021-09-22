@@ -92,6 +92,7 @@ li {
     font-size: 1.6rem;
     color:var(--colorVerdePaisaje);
     cursor: pointer;
+    width: 75%;
 } 
 .willContainer p {
     margin: 50px;

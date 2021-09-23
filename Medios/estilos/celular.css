@@ -15,6 +15,7 @@ html {
     /*paleta basada en el verde paisaje y rayo de sol del paisaje*/
     --azulRecomendado: #4B19FC;
     --rojoRecomendado:#FC1C19;
+    --colorNegro: #2f2f33;
 }
 .logo_container {
     display: flex;;
@@ -60,7 +61,7 @@ main {
     height: 100%;*/
 }
 body {
-    background: var(--colorAmarilloRayoDeSol);
+    background: var(--colorAmarilloCielo);
 }
 .helloBackgroundImage {
     background-image: url('../imagenes/pictures/selva-en-el-lindo-atardecer-salvar-paisaje.jpg');
@@ -142,7 +143,7 @@ li {
     transition: .3s ease all;
 }
 .popUp .button_cerrar-popUp:hover {
-    color: black;
+    color: var(--colorNegro);
 }
 .popUp h3 {
     font-size: 2rem;
@@ -186,4 +187,21 @@ li {
 }
 .popUp form .button-submit:hover {
     background: rgba(94, 125, 227, .9);
+}
+.howDoWeDo {
+    color: white;
+    margin: 0 auto;
+}
+.howDoWeDo h3 {
+    font-size: 1.4rem;
+    margin: inherit;
+    width: 50%;
+}
+.howDoWeDo > p {
+    margin: 10px;
+    margin-top: 50px;
+}
+.plantamos {
+    width: 25%;
+    margin: 10px;
 }

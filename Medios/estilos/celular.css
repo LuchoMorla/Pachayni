@@ -154,10 +154,11 @@ li {
 .popUp p {
     font-size: 1.7rem;
     margin: 15px;
+    color: var(--colorNegro);
     /*font-weight: 300;*/
 }
 .popUp form .contenedor-inputs input {
-    border: 2px solid black;
+    border: 2px solid var(--colorNegro);
     border-radius: 25px;
     padding: 10px;
     margin: 5px;
@@ -165,13 +166,17 @@ li {
 .popUp form .contenedor-inputs {
     width: 100%;
     margin-bottom: 30px;
-    height: 100px;
+    height: 200px;
     /* Seria bueno saber que hace esta propiedad
     line-height: 52px;*/
     font-size: 1.8rem;
     text-align: center;
     border: 1px solid #BBBBBB;
     justify-content: space-between;
+}
+.mensaje {
+    height: 130px;
+    width: 70%;
 }
 .popUp form .button-submit {
     padding: 0 20px;
